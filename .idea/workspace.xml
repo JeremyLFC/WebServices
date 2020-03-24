@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cf76945d-db2b-425c-814b-aef1583de3ed" name="Default Changelist" comment="Initial push for dev branch" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZZzAR5NlZJRjBFGTtQnBIdL4Eu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pizzaprojet/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adaml\IdeaProjects\WebServices\pizzaprojet\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PizzaprojetApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pizzaprojet" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fr.ubordeaux.tdwebservice.pizzaprojet.PizzaprojetApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cf76945d-db2b-425c-814b-aef1583de3ed" name="Default Changelist" comment="" />
+      <created>1585061260023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585061260023</updated>
+      <workItem from="1585061261941" duration="3563000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial push">
+      <created>1585061708611</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585061708611</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial push">
+      <created>1585064718415</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585064718415</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial push" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="678" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585062629736">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="678" y="328" key="#com.intellij.fileTypes.FileTypeChooser/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585062629736" />
+    <state x="459" y="117" key="CommitChangelistDialog2" timestamp="1585064959388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="459" y="117" key="CommitChangelistDialog2/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585064959388" />
+    <state x="740" y="212" key="FileChooserDialogImpl" timestamp="1585061328366">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="212" key="FileChooserDialogImpl/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585061328366" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1585064885297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585064885297" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1585064885296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585064885296" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1585064885295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585064885295" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1585064885296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585064885296" />
+    <state width="1877" height="274" key="GridCell.Tab.1.bottom" timestamp="1585064885298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.1.bottom/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585064885298" />
+    <state width="1877" height="274" key="GridCell.Tab.1.center" timestamp="1585064885297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.1.center/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585064885297" />
+    <state width="1877" height="274" key="GridCell.Tab.1.left" timestamp="1585064885297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.1.left/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585064885297" />
+    <state width="1877" height="274" key="GridCell.Tab.1.right" timestamp="1585064885298">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.1.right/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585064885298" />
+    <state x="440" y="97" key="SettingsEditor" timestamp="1585064929289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="97" key="SettingsEditor/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585064929289" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1585064963053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585064963053" />
+    <state x="335" y="227" key="new project wizard" timestamp="1585061392494">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="335" y="227" key="new project wizard/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1585061392494" />
+  </component>
+</project>
