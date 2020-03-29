@@ -14,4 +14,10 @@ public class TestController {
         return "Hello world! This is our first controller for this project!";
     }
 
+    @RequestMapping("/index")
+
+    public String toIndex(){
+        return "index";
+    }
+
 }
