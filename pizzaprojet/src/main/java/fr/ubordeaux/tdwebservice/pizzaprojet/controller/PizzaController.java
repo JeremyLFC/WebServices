@@ -21,7 +21,8 @@ public class PizzaController {
         return "submitpizza";
     }
 
-    @RequestMapping("/testsavepizza")
+    @SuppressWarnings("finally")
+	@RequestMapping("/testsavepizza")
     public String testSaveController(HttpRequest request) throws IOException {
         List<Ingredient> ingredientList = new ArrayList<Ingredient>();
         ingredientList.add(new Ingredient("Onion","3 "));
