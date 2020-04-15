@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.alibaba.fastjson.JSON;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -34,14 +36,14 @@ public class PizzaController {
     @RequestMapping("/testsavepizza")
     @ResponseBody
     public String testSaveController(@RequestBody String param) throws IOException {
-        List<Ingredient> ingredientList = new ArrayList<Ingredient>();
+      /*  List<Ingredient> ingredientList = new ArrayList<Ingredient>();
         ingredientList.add(new Ingredient("Onion", 3, "Unit"));
         ingredientList.add(new Ingredient("Lardon", 300, "g"));
         List<Step> listSteps = new ArrayList<Step>();
         listSteps.add(new Step(1, "Etap 1"));
         listSteps.add(new Step(2, "Etap 2"));
-        Pizza pizza = new Pizza(ingredientList, "Margherita ", listSteps);
-//        Pizza pizza = JSON.parseObject(param, Pizza.class);
+        Pizza pizza = new Pizza(ingredientList, "Margherita ", listSteps);*/
+        Pizza pizza = JSON.parseObject(param, Pizza.class);
         pizzaService.saveRecette(pizza);
         return "success";
     }
