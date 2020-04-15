@@ -36,4 +36,13 @@ public class Pizza {
         this.namePizza = namePizza;
         this.listSteps = listSteps;
     }
+
+    @Override
+    public String toString() {
+        return "Pizza{" +
+                "ingredientList=" + ingredientList +
+                ", namePizza='" + namePizza + '\'' +
+                ", listSteps=" + listSteps +
+                '}';
+    }
 }

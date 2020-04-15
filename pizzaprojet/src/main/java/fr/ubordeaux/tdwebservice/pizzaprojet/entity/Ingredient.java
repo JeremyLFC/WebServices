@@ -2,7 +2,7 @@ package fr.ubordeaux.tdwebservice.pizzaprojet.entity;
 
 public class Ingredient {
     String nameIngredient;
-    double quantityIngredient;
+    String quantityIngredient;
     String unitOfMesure;
 
     public String getNameIngredient() {
@@ -13,11 +13,11 @@ public class Ingredient {
         this.nameIngredient = nameIngredient;
     }
 
-    public double getQuantityIngredient() {
+    public String getQuantityIngredient() {
         return quantityIngredient;
     }
 
-    public void setQuantityIngredient(double quantityIngredient) {
+    public void setQuantityIngredient(String quantityIngredient) {
         this.quantityIngredient = quantityIngredient;
     }
 
@@ -29,7 +29,7 @@ public class Ingredient {
         this.unitOfMesure = unitOfMesure;
     }
 
-    public Ingredient(String nameIngredient, double quantityIngredient, String unitOfMesure) {
+    public Ingredient(String nameIngredient, String quantityIngredient, String unitOfMesure) {
         this.nameIngredient = nameIngredient;
         this.quantityIngredient = quantityIngredient;
         this.unitOfMesure = unitOfMesure;

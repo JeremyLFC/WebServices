@@ -22,6 +22,7 @@
             }
         </style>
 
+
         <meta charset="UTF-8">
 
         <title>Saisie de la recette</title>
@@ -34,6 +35,7 @@
 
 
     <body>
+    <script src="https://cdn.bootcss.com/jquery/3.5.0/jquery.js"></script>
 
         <h1 id="Title">Création de recette</h1>
 
@@ -90,9 +92,9 @@
             </table><br>
             <p></p>
 
-            <input type="submit" onclick="toJson()">
+            <input type="button" onclick="toJson()">
         </form>
-        <form method="post" id="tableContent" action="/pizza/testsavepizza" style="display: none">
+        <form method="get" id="tableContent" action="/pizza/testsavepizza" style="display: none">
             <input type="text" id="pizzaClass" style="size: auto;width:700px;height: 400px" >
         </form>
 
@@ -211,8 +213,7 @@
                 data.quantityIngredient = tr.childNodes[2].innerHTML;
 
                 data.unitOfMesure  = tr.childNodes[3].innerHTML;
-                ingredients.push(JSON.stringify(data));
-
+                ingredients.push(data);
             }
 
             for(var i=1;i<tableEtapeDescription.rows.length;i++){
@@ -223,19 +224,28 @@
 
                 data.nmStep = tr.childNodes[0].innerHTML;
                 data.descriptionStep = tr.childNodes[1].innerHTML;
-                steps.push(JSON.stringify(data));
+                steps.push(data);
             }
 
 
-            pizzas.ingredientList = JSON.stringify(ingredients);
+            pizzas.ingredientList = ingredients;
             pizzas.namePizza = namePizza;
-            pizzas.listSteps = JSON.stringify(steps);
+            pizzas.listSteps = steps;
             alert(JSON.stringify(pizzas));
-
-
             document.getElementById('pizzaClass').value = JSON.stringify(pizzas);
-            tableContent.submit();
+            // tableContent.submit();
 
+
+            $.ajax({
+                url: "/pizza/testsavepizza",
+                type: "POST",
+                data: JSON.stringify(pizzas),
+                contentType: "application/json;charset=utf-8" ,
+                crossDomain: true,
+                success: function(data){
+                    console.log(data);
+                }
+            });
         }
 
         //document.getElementById("captionIngre").style.textAlign = "center";

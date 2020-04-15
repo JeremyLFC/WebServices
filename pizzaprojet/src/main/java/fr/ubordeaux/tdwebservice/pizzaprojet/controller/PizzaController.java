@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.alibaba.fastjson.JSON;
+
+import javax.servlet.ServletInputStream;
+import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -28,22 +32,22 @@ public class PizzaController {
 
 
     /**
-     * @param param the String that recieve from the front end which will be parse into a object {@code Pizza}
+     * @param request the String that recieve from the front end which will be parse into a object {@code Pizza}
      * @return {@code true} if the {@code String} is saved in the file json
      */
     @RequestMapping("/testsavepizza")
-    @ResponseBody
-    public String testSaveController(@RequestBody String param) throws IOException {
-        List<Ingredient> ingredientList = new ArrayList<Ingredient>();
+    public String testSaveController(@RequestBody Pizza pizza) throws IOException {
+      /*  List<Ingredient> ingredientList = new ArrayList<Ingredient>();
         ingredientList.add(new Ingredient("Onion", 3, "Unit"));
         ingredientList.add(new Ingredient("Lardon", 300, "g"));
         List<Step> listSteps = new ArrayList<Step>();
         listSteps.add(new Step(1, "Etap 1"));
         listSteps.add(new Step(2, "Etap 2"));
-        Pizza pizza = new Pizza(ingredientList, "Margherita ", listSteps);
-//        Pizza pizza = JSON.parseObject(param, Pizza.class);
+        Pizza pizza = new Pizza(ingredientList, "Margherita ", listSteps);*/
+
+        System.out.println(pizza.toString());
         pizzaService.saveRecette(pizza);
-        return "success";
+        return "testSuccess";
     }
 
     /**
@@ -55,6 +59,4 @@ public class PizzaController {
     public String getAllPizzaRecette(){
         return pizzaService.getAllRecette();
     }
-
-
 }
