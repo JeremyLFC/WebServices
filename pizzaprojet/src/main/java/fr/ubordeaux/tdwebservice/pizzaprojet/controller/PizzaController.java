@@ -23,14 +23,8 @@ public class PizzaController {
     @Autowired
     PizzaServiceImpl pizzaService;
 
-    /**
-     * this methode return page submitpizza.jsp
-     * @return
-     */
-    @RequestMapping("/submitpizza")
-    public String pizzaController(){
-        return "submitpizza";
-    }
+
+
 
 
     /**

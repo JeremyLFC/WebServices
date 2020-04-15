@@ -6,14 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf76945d-db2b-425c-814b-aef1583de3ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pizzaprojet/src/main/java/fr/ubordeaux/tdwebservice/pizzaprojet/controller/PageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzaprojet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pizzaprojet/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pizzaprojet/src/main/java/fr/ubordeaux/tdwebservice/pizzaprojet/controller/PizzaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizzaprojet/src/main/java/fr/ubordeaux/tdwebservice/pizzaprojet/controller/PizzaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzaprojet/src/main/java/fr/ubordeaux/tdwebservice/pizzaprojet/entity/Ingredient.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizzaprojet/src/main/java/fr/ubordeaux/tdwebservice/pizzaprojet/entity/Ingredient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzaprojet/src/main/java/fr/ubordeaux/tdwebservice/pizzaprojet/entity/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizzaprojet/src/main/java/fr/ubordeaux/tdwebservice/pizzaprojet/entity/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzaprojet/src/main/java/fr/ubordeaux/tdwebservice/pizzaprojet/entity/Step.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizzaprojet/src/main/java/fr/ubordeaux/tdwebservice/pizzaprojet/entity/Step.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pizzaprojet/src/main/java/fr/ubordeaux/tdwebservice/pizzaprojet/service/impl/PizzaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/pizzaprojet/src/main/java/fr/ubordeaux/tdwebservice/pizzaprojet/service/impl/PizzaServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +43,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -156,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586971411282</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Remove lombok">
+      <created>1586974361450</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1586974361450</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,13 +171,22 @@
     <MESSAGE value="Initial push for dev branch" />
     <MESSAGE value="Add test controller for saving pizza" />
     <MESSAGE value="Add step" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add step" />
+    <MESSAGE value="Remove lombok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove lombok" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1586968493773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Deployment/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586968493773" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1586976045908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586976045908" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586976015680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586976015680" />
     <state x="678" y="328" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585062629736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -187,46 +199,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="703" y="212" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586973522837" />
-    <state x="459" y="117" key="CommitChangelistDialog2" timestamp="1586971410480">
+    <state x="459" y="117" key="CommitChangelistDialog2" timestamp="1586974360459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="459" y="117" key="CommitChangelistDialog2/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586971410480" />
+    <state x="459" y="117" key="CommitChangelistDialog2/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586974360459" />
     <state x="740" y="212" key="FileChooserDialogImpl" timestamp="1586973521918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="212" key="FileChooserDialogImpl/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586973521918" />
-    <state width="1400" height="216" key="GridCell.Tab.0.bottom" timestamp="1586973522951">
+    <state width="1400" height="216" key="GridCell.Tab.0.bottom" timestamp="1586974640906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1400" height="216" key="GridCell.Tab.0.bottom/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586973522951" />
-    <state width="1400" height="216" key="GridCell.Tab.0.center" timestamp="1586973522951">
+    <state width="1400" height="216" key="GridCell.Tab.0.bottom/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586974640906" />
+    <state width="1400" height="216" key="GridCell.Tab.0.center" timestamp="1586974640906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1400" height="216" key="GridCell.Tab.0.center/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586973522951" />
-    <state width="1400" height="216" key="GridCell.Tab.0.left" timestamp="1586973522951">
+    <state width="1400" height="216" key="GridCell.Tab.0.center/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586974640906" />
+    <state width="1400" height="216" key="GridCell.Tab.0.left" timestamp="1586974640906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1400" height="216" key="GridCell.Tab.0.left/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586973522951" />
-    <state width="1400" height="216" key="GridCell.Tab.0.right" timestamp="1586973522951">
+    <state width="1400" height="216" key="GridCell.Tab.0.left/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586974640906" />
+    <state width="1400" height="216" key="GridCell.Tab.0.right" timestamp="1586974640906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1400" height="216" key="GridCell.Tab.0.right/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586973522951" />
-    <state width="1400" height="216" key="GridCell.Tab.1.bottom" timestamp="1586972452262">
+    <state width="1400" height="216" key="GridCell.Tab.0.right/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586974640906" />
+    <state width="1400" height="216" key="GridCell.Tab.1.bottom" timestamp="1586974640903">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1400" height="216" key="GridCell.Tab.1.bottom/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586972452262" />
-    <state width="1400" height="216" key="GridCell.Tab.1.center" timestamp="1586972452261">
+    <state width="1400" height="216" key="GridCell.Tab.1.bottom/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586974640903" />
+    <state width="1400" height="216" key="GridCell.Tab.1.center" timestamp="1586974640902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1400" height="216" key="GridCell.Tab.1.center/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586972452261" />
-    <state width="1400" height="216" key="GridCell.Tab.1.left" timestamp="1586972452261">
+    <state width="1400" height="216" key="GridCell.Tab.1.center/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586974640902" />
+    <state width="1400" height="216" key="GridCell.Tab.1.left" timestamp="1586974640901">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1400" height="216" key="GridCell.Tab.1.left/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586972452261" />
-    <state width="1400" height="216" key="GridCell.Tab.1.right" timestamp="1586972452261">
+    <state width="1400" height="216" key="GridCell.Tab.1.left/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586974640901" />
+    <state width="1400" height="216" key="GridCell.Tab.1.right" timestamp="1586974640902">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1400" height="216" key="GridCell.Tab.1.right/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586972452261" />
+    <state width="1400" height="216" key="GridCell.Tab.1.right/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586974640902" />
     <state x="184" y="86" key="MergeDialog" timestamp="1586265961411">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -239,10 +251,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="97" key="SettingsEditor/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586363594679" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1586971412811">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1586974368870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586971412811" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/1920.-480.1152.2016/0.0.1920.1040@0.0.1920.1040" timestamp="1586974368870" />
     <state x="754" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586974345778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
