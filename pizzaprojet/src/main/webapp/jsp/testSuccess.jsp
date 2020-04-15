@@ -5,5 +5,8 @@
 </head>
 <body>
 <p>test success!</p>
+<script>
+
+</script>
 </body>
 </html>
