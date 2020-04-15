@@ -17,10 +17,16 @@ import java.util.List;
 @Controller
 @RequestMapping("/pizza")
 public class PizzaController {
-
+    /**
+     * {@link fr.ubordeaux.tdwebservice.pizzaprojet.service.impl.PizzaServiceImpl}
+     */
     @Autowired
     PizzaServiceImpl pizzaService;
 
+    /**
+     * this methode return page submitpizza.jsp
+     * @return
+     */
     @RequestMapping("/submitpizza")
     public String pizzaController(){
         return "submitpizza";
@@ -48,7 +54,7 @@ public class PizzaController {
 
     /**
      *
-     * @return
+     * @return {@code String} this methode return all the menu saved in the document pizzarecette.json with format json
      */
     @RequestMapping("/getAllPizzaRecette")
     @ResponseBody

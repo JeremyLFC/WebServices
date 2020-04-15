@@ -12,8 +12,16 @@ import java.nio.charset.StandardCharsets;
 @Service
 public class PizzaServiceImpl implements PizzaService {
 
+    /**
+     * This is the path that file pizzarecette.json will be saved.{@value}
+     */
     private final String destPath = this.getClass().getResource("/META-INF/resources/static/").getPath();
 
+    /**
+     * This is the methode that will write a new pizza to the file pizzarecette.json
+     * @param pizza this is the object that recieve from front and be parsed
+     * @throws IOException IoException when the configuration of the build path is changed
+     */
     @Override
     public void saveRecette(Pizza pizza) throws IOException {
         BufferedWriter writer = null;
@@ -54,6 +62,11 @@ public class PizzaServiceImpl implements PizzaService {
         }
     }
 
+
+    /**
+     * This is the methode that read all the data in the file pizzarecette.json
+     * @return {@code String} is not null, or {@code ""} if it is null;
+     */
     @Override
     public String getAllRecette() {
         BufferedReader reader = null;
