@@ -10,6 +10,5 @@ import java.util.List;
 public class Pizza {
     private List<Ingredient> ingredientList;
     private String namePizza;
-    private String descriptionPizza;
-    private List<String> listSteps;
+    private List<Step> listSteps;
 }

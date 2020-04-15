@@ -2,27 +2,24 @@ package fr.ubordeaux.tdwebservice.pizzaprojet.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
-import com.alibaba.fastjson.JSONObject;
-import fr.ubordeaux.tdwebservice.pizzaprojet.entity.Ingredient;
 import fr.ubordeaux.tdwebservice.pizzaprojet.entity.Pizza;
 import fr.ubordeaux.tdwebservice.pizzaprojet.service.PizzaService;
 import org.springframework.stereotype.Service;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.nio.charset.StandardCharsets;
 
 @Service
 public class PizzaServiceImpl implements PizzaService {
 
-    private String destPath = this.getClass().getResource("/META-INF/resources/static/").getPath();
+    private final String destPath = this.getClass().getResource("/META-INF/resources/static/").getPath();
 
     @Override
     public void saveRecette(Pizza pizza) throws IOException {
         BufferedWriter writer = null;
         String dataRead = this.getAllRecette();
         JSONArray listPizza;
-        if(!dataRead.isEmpty()){
+        if (!dataRead.isEmpty()) {
             listPizza = JSON.parseArray(this.getAllRecette());
         } else {
             listPizza = new JSONArray();
@@ -33,8 +30,8 @@ public class PizzaServiceImpl implements PizzaService {
         listPizza.add(pizza);
 
         //Ecrire json string dans dossier
-        File file = new File(destPath+"pizzarecette.json");
-        if(!file.exists()){
+        File file = new File(destPath + "pizzarecette.json");
+        if (!file.exists()) {
             try {
                 file.createNewFile();
             } catch (IOException e) {
@@ -42,8 +39,8 @@ public class PizzaServiceImpl implements PizzaService {
             }
         }
 
-        try{
-            writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file,false),"UTF-8"));
+        try {
+            writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file, false), StandardCharsets.UTF_8));
             writer.write(listPizza.toJSONString());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -60,9 +57,9 @@ public class PizzaServiceImpl implements PizzaService {
     @Override
     public String getAllRecette() {
         BufferedReader reader = null;
-        File file = new File(destPath+"pizzarecette.json");
+        File file = new File(destPath + "pizzarecette.json");
         String laststr = "";
-        if(!file.exists()){
+        if (!file.exists()) {
             try {
                 file.createNewFile();
             } catch (IOException e) {
@@ -70,8 +67,8 @@ public class PizzaServiceImpl implements PizzaService {
             }
         }
 
-        try{
-            reader = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8"));
+        try {
+            reader = new BufferedReader(new InputStreamReader(new FileInputStream(file), StandardCharsets.UTF_8));
             String tempString = null;
             while ((tempString = reader.readLine()) != null) {
                 laststr += tempString;
